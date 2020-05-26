@@ -1,0 +1,59 @@
+body {
+    padding-top: 4em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #563d7c;
+    color: white;
+}
+
+Link {
+    text-decoration: none;
+}
+.about {
+    margin-top: 5em;
+}
+
+.profile {
+    height: 35em;
+    width: 25em;
+    border-radius: 50%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    color: white;
+}
+
+.fa {
+    padding: 0.6em;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 0.6em;
+    color: white;
+}
+
+.fa:hover, .navbar-brand:hover, .nav-links:hover {
+    color: white;
+    opacity: 0.7;
+}
+
+.project {
+    margin: 1em;
+    border-style: groove;
+    border-width: 5px;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+.title {
+    background: lightgray;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+}
