@@ -4,41 +4,41 @@ import profilePicture from '../images/profile.jpg'
 export default function Home() {
     return (
         <>
-            <div className="row about">
-                <div className="col-6">
-                    <div className="col-10 offset-1">
-                        <h3> Welcome to my website!</h3>
+            <div className="row component-body">
+                    <div className="col-lg-8 col-md-12">
+                        <h3>This is the page about me!</h3>
                         <div>
-                            This is one of the many web-based homes of Brendan Bard.
+                            Ever since I was young I've had an interest in technology. Eventually manifested itself in 
+                            me taking my first programming class while in high school. By the time I left I had learned
+                            BASIC, Visual Basic, and some web-based programming. I was set on pursuing what I believed 
+                            was the degree to accomplish my goals. Computer Science.
                         </div>
                         <br />
                         <div>
-                            I am an all-around programmer currently based out of Wisconsin. However, if
-                            I had to choose a skill set I have the most experience in it would be web development.
-                            However, this is almost strictly related to the code based side of things. Design is 
-                            not my forte.
+                            After some personal issues that led to me transferring schools a couple of times I discovered
+                            that University of Wisconsin Stout had a Game Design and Development program and I applied with
+                            great enthusiasm. My time there was fundamental as it allowed me the oppurtunity to participate
+                            in several games. It is also where I was required to take my co-op program where I got my
+                            professional experience.
                         </div>
                         <br />
                         <div>
-                            My primary passion in doing projects, much like this website, is to learn something new. 
-                            Nothing excites me more than digging into something with only basic knowledge and growing as I become more familiar with it.
+                            Towards the end of my time at UW Stout and the time after I've had some struggles with depression.
+                            It was as a result of this that I stayed away from the thing I loved for so long. I even began to 
+                            doubt if it really was the field for me.  However, with the support of my friends, family, and health
+                            professinoals I have decided that this feeling will pass.  I will continue to search for a place somewhere
+                            I can use the skills I've developed and continue to improve myself.
                         </div>
                         <br />
                         <div>
-                            If you are visiting this website in it's early stages, you will find that I'm missing a location for my resume and
-                            the projects I've worked on. As such, it is pretty much a glorified self-indulgence. However, it's still better than
-                            it's previous state.
-                        </div>
-                        <br />
-                        <div>
-                            Free free to contact me using any of the social links in the top right corner. If you wish to contact me by email and the mailto
-                            link isn't working for you the address to use is brendan.bard@gmail.com. I will try to respond to you as quickly as possible!
+                            On a less serious note, I have been greatly influenced by several forms of media. In particular, I have a 
+                            great interest in the stories of anime and video games. Please start a conversation about time travel with me!
+                            If you'd like to talk about something more "professional" I also like talking about Clean Code by Robert C. Martin.
                         </div>
                     </div>
-                </div>
-                <div className="col-6">
-                    <img className="profile" src={profilePicture} alt="Profile"/>
-                </div>
+                    <div className="col-lg-4 col-md-12">
+                        <img className="profile" src={profilePicture} alt="Profile"/>
+                    </div>
             </div>
         </>
     )

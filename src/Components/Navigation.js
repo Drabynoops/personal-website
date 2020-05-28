@@ -21,13 +21,11 @@ export default function Navigation() {
                             Projects
                         </h6>
                     </Link>
-                    {/* To be added at a later date
                     <Link to="/resume" style={{ textDecoration: 'none' }}>
                         <h6 className="navbar navbar-nav nav-links">
                             Resume
                         </h6>
-                    </Link>*/
-                    }
+                    </Link>
                 </div>
                     
                 <div className="navbar-nav ml-auto">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Card({title, content, projectLink, imageLink}) {
+export default function Card({title, content, projectLink, technologiesUsed, imageLink}) {
 
     return (
         <div className="project">
@@ -8,8 +8,12 @@ export default function Card({title, content, projectLink, imageLink}) {
             <div className="content col-12">
                 {content}
             </div>
-            {/*Here will go technologies used. Supplementary info*/}
-            {projectLink && <a href={projectLink}>Link to the project</a>}
+            <div className="bottom-card">
+                {(technologiesUsed || projectLink) && <hr />}
+                {technologiesUsed && <div className="col-12">Technologies Used: {technologiesUsed}</div>}
+                {projectLink && <div className="col-12"><a href={projectLink}>Link to the project</a></div>}
+            </div>
+            
         </div>
     )
 }
