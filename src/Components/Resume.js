@@ -7,7 +7,7 @@ export default function Resume() {
             <div className="row cover-letter">
                 <div className="col">
                     <div>
-                        I am an all-around programmer currently based out of Wisconsin. I offer practical experience
+                        I am an all-around programmer currently based out of Florida. I offer practical experience
                         in software design, coding, testing and integration.  If I had to choose a skill set I have 
                         the most experience in it would be web development.
                     </div>
